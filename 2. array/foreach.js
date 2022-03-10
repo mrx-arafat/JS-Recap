@@ -1,8 +1,18 @@
-const cars = ["bmw", "toyota", "seat", "ferrari", "tesla"];
+// const cars = ["bmw", "toyota", "seat", "ferrari", "tesla"];
 
-function gooFn(value) {
+// function gooFn(value) {
+//   console.log(value);
+// }
+// cars.forEach(gooFn);
+
+const nums = [2, 34, 432, 21, 13];
+
+function myFunction(value, index, array) {
   console.log(value);
-}
-cars.forEach(gooFn);
+  console.log(index);
+  console.log(array);
 
-console.log("---finished");
+  console.log("loop shes---------------");
+}
+
+nums.forEach(myFunction);
