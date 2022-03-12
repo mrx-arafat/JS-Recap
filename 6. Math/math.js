@@ -1,7 +1,7 @@
-const num = 69.69;
+const num = 69.29;
 
 console.log(num);
 
-const numUp = Math.round(num);
+const numUp = Math.ceil(num);
 
 console.log(numUp);
