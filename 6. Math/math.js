@@ -1,7 +1,7 @@
-const num = 69.29;
+const num = 69.9;
 
 console.log(num);
 
-const numUp = Math.ceil(num);
+const numUp = Math.floor(num);
 
 console.log(numUp);
