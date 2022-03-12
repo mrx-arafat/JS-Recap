@@ -11,6 +11,10 @@
       function myFunction() {
         var day;
 
+        // const d = new Date();
+        // let day = d.getDay();
+        // day output nebar jonno
+
         switch (new Date().getDay()) {
           case 0:
             day = "Sunday";
@@ -37,7 +41,7 @@
             day = "Unknown Day";
         }
         document.getElementById("demo").innerHTML =
-          "Today is " + day + " " + new Date().getDay();
+          "Today is " + day + " || case: " + new Date().getDay();
       }
     </script>
   </body>
