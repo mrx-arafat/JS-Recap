@@ -1,4 +1,6 @@
-const num = 69.9;
+// tested floor ceil round, also try for negative number
+
+const num = -69.9;
 
 console.log(num);
 
