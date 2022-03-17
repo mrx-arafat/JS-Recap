@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h3>test for loop</h3>
+    <p id="test"></p>
+
+    <script>
+      const fruits = ["apple", "mango", "pineapple", "guava"];
+
+      let text = "";
+
+      for (let i = 0; i < fruits.length; i++) {
+        text = text + fruits[i] + "</br>";
+      }
+
+      document.getElementById("test").innerHTML = text;
+    </script>
+  </body>
+</html>
