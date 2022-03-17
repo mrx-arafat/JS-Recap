@@ -5,3 +5,9 @@ for (let x in cars) {
 
   console.log(cars[x]);
 }
+
+const n = [12, 3, 2, 434, 434, 34, 4, 3];
+
+for (let z in n) {
+  console.log(n[z]);
+}
