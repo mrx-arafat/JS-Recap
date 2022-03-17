@@ -7,4 +7,4 @@ for (let i = 0; i < s.length; i++) {
 }
 // huday matha nostw kori
 
-console.log(i + "--");
+console.log(i);
