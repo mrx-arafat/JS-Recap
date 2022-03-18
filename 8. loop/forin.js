@@ -6,6 +6,8 @@ for (let x in cars) {
   console.log(cars[x]);
 }
 
+//don't use for in over an array>> for of and forEach use kora lagbe
+
 const numbers = [12, 3, 2, 434, 434, 34, 4, 3];
 
 for (let number in numbers) {
