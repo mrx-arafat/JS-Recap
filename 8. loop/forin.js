@@ -6,8 +6,8 @@ for (let x in cars) {
   console.log(cars[x]);
 }
 
-const n = [12, 3, 2, 434, 434, 34, 4, 3];
+const numbers = [12, 3, 2, 434, 434, 34, 4, 3];
 
-for (let z in n) {
-  console.log(n[z]);
+for (let number in numbers) {
+  console.log(numbers[number]);
 }
