@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>I don't know.</h2>
+
+<h1 style="color: rgb(209, 162, 20);">Am I testing the code or the code testing me!!!</h1>
+
+<p>The best way to loop through an array is using a standard for loop:</p>
+
+<p id="demo">
+
+</p>
+
+<script>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fLen = fruits.length;
+let text ="<ul>"
+for(let i=0;i<fLen; i++){
+      text=text+"<li>"+fruits[i]+"</li>";
+}
+
+text=text+"</ul>";
+
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
