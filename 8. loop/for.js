@@ -4,7 +4,7 @@ const s = ["!@", "@#", "FD", "HG"];
 
 for (let i = 0; i < s.length; i++) {
   console.log(i);
+  console.log(s[i]);
 }
-// huday matha nostw kori
 
-console.log(i);
+console.log("declared", i);
