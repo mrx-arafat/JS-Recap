@@ -5,3 +5,8 @@ function myFunction(value, index, array) {
   return value * 2;
 }
 console.log(numbers2);
+
+
+
+// vaai map ekta array return kore
+// array er prottek ta element er upore same  
