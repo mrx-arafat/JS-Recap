@@ -1,5 +1,4 @@
-/// vaai name er moddhei ache je eita for each mane eita array er each element return korbe 
-
+/// vaai name er moddhei ache je eita for each mane eita array er each element return korbe
 
 // const cars = ["bmw", "toyota", "seat", "ferrari", "tesla"];
 
@@ -11,7 +10,7 @@
 const nums = [2, 34, 432, 21, 13];
 
 function myFunction(value, index, array) {
-  console.log(value*2);
+  console.log(value * 2);
   console.log(index);
   console.log(array);
 
