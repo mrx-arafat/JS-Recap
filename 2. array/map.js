@@ -1,12 +1,51 @@
-const numbers1 = [45, 4, 9, 16, 25];
-const numbers2 = numbers1.map(myFunction);
+// const numbers1 = [45, 4, 9, 16, 25];
+// const numbers2 = numbers1.map(myFunction);
 
-function myFunction(value, index, array) {
-  return value * 2;
-}
-console.log(numbers2);
+// function myFunction(value, index, array) {
+//   return value * 2;
+// }
+// console.log(numbers2);
 
+//  map ekta array return kore
 
+const manush = [
+  {
+    name: "Luke Skywalker",
+    height: "172",
+    mass: "77",
+    eye_color: "blue",
+    gender: "male",
+  },
+  {
+    name: "Darth Vader",
+    height: "202",
+    mass: "136",
+    eye_color: "yellow",
+    gender: "male",
+  },
+  {
+    name: "Leia Organa",
+    height: "150",
+    mass: "49",
+    eye_color: "brown",
+    gender: "female",
+  },
+  {
+    name: "Anakin Skywalker",
+    height: "188",
+    mass: "84",
+    eye_color: "blue",
+    gender: "male",
+  },
+];
 
-// vaai map ekta array return kore
-// array er prottek ta element er upore same  
+const names = manush.map((singleManush) => {
+  return singleManush.name;
+});
+console.log(names);
+
+const firstNames = manush.map((singleManush) => {
+  //split(" ") array return kore
+  return singleManush.name.split(" ")[0];
+});
+console.log(firstNames);
