@@ -4,6 +4,10 @@ const user = {
   mist: { dept: "cse", degree: "bsc", cgpa: 3.0 },
 };
 
-const { name, id } = user;
+const {
+  name,
+  id,
+  mist: { dept, cgpa },
+} = user;
 
-console.log(name, id);
+console.log(dept);
