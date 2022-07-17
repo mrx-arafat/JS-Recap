@@ -11,3 +11,7 @@ const {
 } = user;
 
 console.log(dept);
+
+//https://youtu.be/pkeqeUTtEjg
+
+console.log(`learn from this video`);
